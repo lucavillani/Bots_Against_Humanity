@@ -13,10 +13,11 @@ api.verify_credentials()
 print("Authentication OK \n")
 
 # Text of the tweet
-print(tweet)
+print(tweet, "\n")
 
 # Tweet
 api.update_status(tweet)
 
 #https://realpython.com/twitter-bot-python-tweepy/
 # Add other function inclduing automatic replies to users (create random answer function)
+# Add time delay
