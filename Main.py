@@ -16,7 +16,7 @@ print("Authentication OK \n")
 print(tweet, "\n")
 
 # Tweet
-#api.update_status(tweet)
+api.update_status(tweet)
 
 #https://realpython.com/twitter-bot-python-tweepy/
 # Add other function inclduing automatic replies to users (create random answer function)
